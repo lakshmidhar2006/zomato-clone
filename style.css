@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("https://t3.ftcdn.net/jpg/06/16/67/08/360_F_616670807_u1Zgb4CP1gyBVkczyUR5palkLElmeBrc.jpg");
+    background-size: cover;
+    height:450px;
+    
+}
+#head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.abc{
+    display:flex;
+    height:fit-content;
+    width:auto;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+    align-items: flex-end;
+    color: rgb(225, 255, 127);
+    height:auto;
+    width:auto;
+    cursor:pointer;
+}
+.matter{
+    display: flex;
+    justify-content: center;
+}
+.matter a{
+    font-size: 50px;
+    color: aliceblue;
+   
+    padding: 15px;
+  
+}
+
+.left{
+    margin-top: 20px;
+
+}
+.left a{
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+
+ul{
+   
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo a{
+    font-size: 100px;
+   color: aliceblue;
+}
+li{
+    margin: 25px 10px;
+    color: aliceblue;
+   background:transparent;
+}
+.right li:hover {
+    
+    color: white; 
+    font-size: 20px;
+
+}
+.search-container {
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    width: 600px; 
+    margin: 20px auto; 
+}
+
+.search-bar {
+   
+    padding: 10px; 
+
+    border: 1px solid #ccc; 
+    border-radius: 5px 0 0 5px; 
+    font-size: 16px; 
+    outline: none; 
+}
+
+.search-button {
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 0 5px 5px 0; 
+    background-color: #e23744; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer; 
+   
+}
+
+.search-button:hover {
+    background-color: #c32a36;
+}
+
